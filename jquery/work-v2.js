@@ -9,7 +9,7 @@ $(function() {
         $('.fx-4').addClass('fx-on');
         $('.fx-5').addClass('fx-on');
         $('.fx-6').addClass('fx-on');
-        if (width_window <= 350) {
+        if (width_window <= 767) {
             $('.fx-1').addClass('fx-on');
             $('.fx-2').addClass('fx-on');
             $('.fx-3').addClass('fx-on');

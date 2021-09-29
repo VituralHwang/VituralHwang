@@ -34,8 +34,8 @@ body{
 .fx-13{ transition: all ease 1.25s;}
 
 .fx-on{
-    transform: translateX(0px) !important; 
-    opacity: 1 !important;
+    transform: translateX(0px); 
+    opacity: 1;
 }
 
 .title-all{

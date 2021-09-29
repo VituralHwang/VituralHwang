@@ -11,8 +11,8 @@ $(function() {
         $('.fx-6').addClass('fx-on');
     });
 
-    $(window).on('load', function() {
-        if (width_window <= 350) {
+    /*$(window).on('load', function() {
+        if (width_window <= 767) {
             $('.fx-1').addClass('fx-on');
             $('.fx-2').addClass('fx-on');
             $('.fx-3').addClass('fx-on');
@@ -26,7 +26,7 @@ $(function() {
             $('.fx-11').addClass('fx-on');
             $('.fx-12').addClass('fx-on');
         }
-    });
+    });*/
     
     $(window).scroll(function(event){
         vtht = $('html, body').scrollTop();
@@ -75,19 +75,6 @@ $(function() {
                 $('.fx-9').addClass('fx-on');
             }
             if (vtht >899) {
-                $('.fx-10').addClass('fx-on');
-                $('.fx-11').addClass('fx-on');
-                $('.fx-12').addClass('fx-on');
-            }
-        }
-
-        if (width_window <= 780) {
-            if (vtht > 10) {
-                $('.fx-7').addClass('fx-on');
-                $('.fx-8').addClass('fx-on');
-                $('.fx-9').addClass('fx-on');
-            }
-            if (vtht >350) {
                 $('.fx-10').addClass('fx-on');
                 $('.fx-11').addClass('fx-on');
                 $('.fx-12').addClass('fx-on');

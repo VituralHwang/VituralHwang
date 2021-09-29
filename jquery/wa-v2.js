@@ -10,7 +10,7 @@ $(function() {
     });
 
     $(window).on('load', function() {
-        if (width_window <= 440) {
+        if (width_window <= 767) {
             $('.fx-1').addClass('fx-on');
             $('.fx-2').addClass('fx-on');
             $('.fx-3').addClass('fx-on');

@@ -64,24 +64,18 @@ body{
 }
 
 /*--------------------------*/
-.contact-v2 .h1-title {
-    font-size: 45px;
-}
-.contact-v2 .p-contact {
-    font-size: 22px;
-}
-.contact-v3 .h1-title {
-    font-size: 40px;
-}
-.contact-v3 .p-contact {
-    font-size: 18px;
-}
-.contact-v2 .cp-t {
-    font-size: 22px;
-}
+.contact-v2 .h1-title {font-size: 40px;}
+.contact-v2 .p-contact {font-size: 22px;}
+.contact-v3 .h1-title {font-size: 30px;margin: 0px 0 40px 15px;}
+.contact-v3 .p-contact {font-size: 16px;line-height: 24px;}
+.contact-v2 .cp-t {font-size: 22px;}
+
+.contact-v3 .straight-line{margin: 10px 0 0px;}
+
+.contact-v3 .icon-contact{width: 30px !important;font-size: 20px;}
 .contact-v3 .cp-t {
-    font-size: 18px;
-    width: 60px;
+    font-size: 16px;
+    width: 50px;
 }
 
 .ft-h6 {
