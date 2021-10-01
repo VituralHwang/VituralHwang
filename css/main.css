@@ -57,7 +57,7 @@
 }
 
 .straight-line {
-    border: 3px solid white;
+    border-top: 3px solid white;
     width: 173px;
     height: 1px;
     margin: 28px 0 44px;
