@@ -30,7 +30,7 @@ $(function() {
     
     $(window).scroll(function(event){
         vtht = $('html, body').scrollTop();
-        console.log(vtht);
+
         if (vtht >1399) {
             $('.fx-7').addClass('fx-on');
             $('.fx-8').addClass('fx-on');
@@ -83,22 +83,17 @@ $(function() {
     })
 
     var h2p = $('.2-pic').height();
-    console.log(h2p);
     $('.l-pic').height(h2p);
-
     var h2p_v2 = $('.2-pic-v2').height();
-    console.log(h2p_v2);
     $('.l-pic-v2').height(h2p_v2);
-
     var h2p_v3 = $('.2-pic-v3').height();
-    console.log(h2p_v3);
-    $('.l-pic-v3').height(h2p_v3);
-    if (width_window <= 575) {$('.l-pic-v3').css('margin','0 0 -15px 0');}
-    if (width_window <= 420) {$('.l-pic-v3').css('margin','0 0 -10px 0');}
-    if (width_window <= 375) {$('.l-pic-v3').css('margin','0 0 -9px 0');}
+    $('.l-pic-v3').height(h2p_v3-23.46);
 
     var hvd = $('.main-s-pic').height();
-    console.log(hvd);
     $('.s-vid').height(hvd);
+    var hvd2 = $('.main-s-pic-v2').height();
+    $('.s-vid-v2').height(hvd2);
+    var hvd3 = $('.main-s-pic-v3').height();
+    $('.s-vid-v3').height(hvd3);
         
 })
