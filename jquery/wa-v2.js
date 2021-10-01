@@ -71,15 +71,14 @@ $(function() {
 
     var h2p = $('.2-pic').height();
     $('.l-pic').height(h2p);
-
     var h2p_v2 = $('.2-pic-v2').height();
     $('.l-pic-v2').height(h2p_v2);
-
     var h2p_v3 = $('.2-pic-v3').height();
     $('.l-pic-v3').height(h2p_v3);
-    if (width_window <= 575) {$('.l-pic-v3').css('margin','0 0 -15px 0');}
-    if (width_window <= 420) {$('.l-pic-v3').css('margin','0 0 -10px 0');}
-    if (width_window <= 375) {$('.l-pic-v3').css('margin','0 0 -9px 0');}
+
+    var gtg = ($('.main-s-pic-v3').height()*2)+15;
+    $('.box-pic-v3').height(gtg)
+    
 
     var hvd = $('.main-s-pic').height();
     $('.s-vid').height(hvd);

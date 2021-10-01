@@ -87,7 +87,11 @@ $(function() {
     var h2p_v2 = $('.2-pic-v2').height();
     $('.l-pic-v2').height(h2p_v2);
     var h2p_v3 = $('.2-pic-v3').height();
-    $('.l-pic-v3').height(h2p_v3-23.46);
+    $('.l-pic-v3').height(h2p_v3);
+
+    var gtg = ($('.main-s-pic-v3').height()*2)+15;
+    $('.box-pic-v3').height(gtg)
+
 
     var hvd = $('.main-s-pic').height();
     $('.s-vid').height(hvd);
