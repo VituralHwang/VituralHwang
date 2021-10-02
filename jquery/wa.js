@@ -2,28 +2,14 @@ $(function() {
     var width_window = $(window).width();                        
     console.log(width_window);
 
-/*    var h2p = $('.2-pic').height();
-    $('.l-pic').height(h2p);
-    var h2p_v2 = $('.2-pic-v2').height();
-    $('.l-pic-v2').height(h2p_v2);
-    var h2p_v3 = $('.2-pic-v3').height();
-    $('.l-pic-v3').height(h2p_v3);*/
-
-    var gtg = ($('.main-s-pic').height()*2)+30;
-    $('.box-pic').height(gtg)
-    var gtg2 = ($('.main-s-pic-v2').height()*2)+30;
-    $('.box-pic-v2').height(gtg2)
-    var gtg3 = ($('.main-s-pic-v3').height()*2)+15;
-    $('.box-pic-v3').height(gtg3)
-    
-    var hvd = $('.main-s-pic').height();
-    $('.s-vid').height(hvd);
-    var hvd2 = $('.main-s-pic-v2').height();
-    $('.s-vid-v2').height(hvd2);
-    var hvd3 = $('.main-s-pic-v3').height();
-    $('.s-vid-v3').height(hvd3);
-
     $(window).on('load', function() {
+        var gtg = ($('.main-s-pic').height()*2)+30;
+        $('.box-pic').height(gtg)
+        var gtg2 = ($('.main-s-pic-v2').height()*2)+30;
+        $('.box-pic-v2').height(gtg2)
+        var gtg3 = ($('.main-s-pic-v3').height()*2)+15;
+        $('.box-pic-v3').height(gtg3)
+
         $('.fx-1').addClass('fx-on');
         $('.fx-2').addClass('fx-on');
         $('.fx-3').addClass('fx-on');
@@ -46,6 +32,27 @@ $(function() {
             $('.fx-12').addClass('fx-on');
         }
     });
+
+/*    var h2p = $('.2-pic').height();
+    $('.l-pic').height(h2p);
+    var h2p_v2 = $('.2-pic-v2').height();
+    $('.l-pic-v2').height(h2p_v2);
+    var h2p_v3 = $('.2-pic-v3').height();
+    $('.l-pic-v3').height(h2p_v3);*/
+
+    var gtg = ($('.main-s-pic').height()*2)+30;
+    $('.box-pic').height(gtg)
+    var gtg2 = ($('.main-s-pic-v2').height()*2)+30;
+    $('.box-pic-v2').height(gtg2)
+    var gtg3 = ($('.main-s-pic-v3').height()*2)+15;
+    $('.box-pic-v3').height(gtg3)
+    
+    var hvd = $('.main-s-pic').height();
+    $('.s-vid').height(hvd);
+    var hvd2 = $('.main-s-pic-v2').height();
+    $('.s-vid-v2').height(hvd2);
+    var hvd3 = $('.main-s-pic-v3').height();
+    $('.s-vid-v3').height(hvd3);
     
     $(window).scroll(function(event){
         vtht = $('html, body').scrollTop();
