@@ -5,6 +5,23 @@
     line-height: 178.87%;
 }
 
+.modal-header {height: 50px;padding: 0 !important;}
+
+.modal-header .close-custom {
+    width: 30px;
+    height: 30px;
+    margin: 2% 4% !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.modal-content {background: #00000099 !important;}
+
+.modal{
+    top: 30% !important;
+    bottom: auto !important;
+}
+
 body{
     background: url(../data/bg_and_logo/noise.jpg);
 }
