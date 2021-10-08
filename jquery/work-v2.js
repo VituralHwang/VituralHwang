@@ -111,6 +111,43 @@ $(function() {
         }
     })
 
+    $(document).on('click', '.modal-backdrop', function () {
+        $('.modal').modal('hide')
+    })
+
+    $('#modal1').on('shown.bs.modal', function () {$('#video-work-main')[0].play();})
+    $('#modal1').on('hidden.bs.modal', function () {$('#video-work-main')[0].pause();})
+    $('#modal2').on('shown.bs.modal', function () {$('#video-work-main2')[0].play();})
+    $('#modal2').on('hidden.bs.modal', function () {$('#video-work-main2')[0].pause();})
+    $('#modal3').on('shown.bs.modal', function () {$('#video-work-main3')[0].play();})
+    $('#modal3').on('hidden.bs.modal', function () {$('#video-work-main3')[0].pause();})
+    $('#modal4').on('shown.bs.modal', function () {$('#video-work-main4')[0].play();})
+    $('#modal4').on('hidden.bs.modal', function () {$('#video-work-main4')[0].pause();})
+
+    $('#modal5').on('shown.bs.modal', function () {$('#video-work-main5')[0].play();})
+    $('#modal5').on('hidden.bs.modal', function () {$('#video-work-main5')[0].pause();})
+    $('#modal6').on('shown.bs.modal', function () {$('#video-work-main6')[0].play();})
+    $('#modal6').on('hidden.bs.modal', function () {$('#video-work-main6')[0].pause();})
+
+    $('#modal9').on('shown.bs.modal', function () {$('#video-work-main9')[0].play();})
+    $('#modal9').on('hidden.bs.modal', function () {$('#video-work-main9')[0].pause();})
+    $('#modal10').on('shown.bs.modal', function () {$('#video-work-main10')[0].play();})
+    $('#modal10').on('hidden.bs.modal', function () {$('#video-work-main10')[0].pause();})
+    $('#modal11').on('shown.bs.modal', function () {$('#video-work-main11')[0].play();})
+    $('#modal11').on('hidden.bs.modal', function () {$('#video-work-main11')[0].pause();})
+    $('#modal12').on('shown.bs.modal', function () {$('#video-work-main12')[0].play();})
+    $('#modal12').on('hidden.bs.modal', function () {$('#video-work-main12')[0].pause();})
+
+    $('#modal13').on('shown.bs.modal', function () {$('#video-work-main13')[0].play();})
+    $('#modal13').on('hidden.bs.modal', function () {$('#video-work-main13')[0].pause();})
+    $('#modal14').on('shown.bs.modal', function () {$('#video-work-main14')[0].play();})
+    $('#modal14').on('hidden.bs.modal', function () {$('#video-work-main14')[0].pause();})
+
+    $('#modal15').on('shown.bs.modal', function () {$('#video-work-main15')[0].play();})
+    $('#modal15').on('hidden.bs.modal', function () {$('#video-work-main15')[0].pause();})
+    $('#modal16').on('shown.bs.modal', function () {$('#video-work-main16')[0].play();})
+    $('#modal16').on('hidden.bs.modal', function () {$('#video-work-main16')[0].pause();})
+
     var movehover1 = $('.sec-vid-1').hover( hoverVideo1, hideVideo1 );
     function hoverVideo1(e) {$('#video-work-1')[0].play();}
     function hideVideo1(e) {$('#video-work-1')[0].pause();}
