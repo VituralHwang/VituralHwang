@@ -17,11 +17,6 @@
 
 .modal-content {background: #00000099 !important;}
 
-.modal{
-    top: 30% !important;
-    bottom: auto !important;
-}
-
 body{
     background: url(../data/bg_and_logo/noise.jpg);
 }
