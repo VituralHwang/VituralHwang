@@ -1,0 +1,87 @@
+*{
+    font-family: 'Futura';
+    font-style: normal;
+    line-height: 178.87%;
+}
+
+body{
+    background: url(../data/bg_and_logo/noise.jpg);
+}
+
+.h1-title {
+    font-size: 72px;
+    color: white;
+    margin: 12px 0 46px 30px;
+    font-weight: 700;
+}
+
+.p-contact {
+    color: white;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+    display: inline-grid;
+}
+
+.icon-contact {
+    font-size: 40px;
+    color: white;
+    float: left;
+    display: block;
+    width: 70px !important;
+}
+.contact {
+    margin: 122px 0 0 0;
+}
+
+.cp-t {
+    color: black;
+    background: white;
+    position: absolute;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    line-height: 30px;
+    margin: 0 0 0 1%;
+}
+
+.cp-t:hover, .cp-t:focus {
+    box-shadow: inset 0 0 1px 2px black;
+    color: black;
+    text-decoration: none;
+}
+
+.a-contact:hover, .a-contact:focus {
+    text-decoration-color: white;
+}
+
+@media (max-width: 1600px) {
+.container-fluid.contact{width: 90%;}
+}
+
+@media (max-width: 1280px) {
+.container-fluid.contact{width: 85%;}
+}
+
+/*--------------------------*/
+.contact-v2 .h1-title {font-size: 40px;}
+.contact-v2 .p-contact {font-size: 22px;}
+.contact-v3 .h1-title {font-size: 30px;margin: 0px 0 40px 15px;}
+.contact-v3 .p-contact {font-size: 16px;line-height: 24px;}
+.contact-v2 .cp-t {font-size: 22px;}
+
+.contact-v3 .straight-line{margin: 10px 0 0px;}
+
+.contact-v3 .icon-contact{width: 30px !important;font-size: 20px;}
+.contact-v3 .cp-t {
+    font-size: 16px;
+    width: 50px;
+}
+
+.ft-h6 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
