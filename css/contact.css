@@ -1,6 +1,7 @@
 *{
-    font-family: 'Futura';
+    font-family: 'Futura Hv BT';
     font-style: normal;
+    font-weight: 900;
     line-height: 178.87%;
 }
 
@@ -12,14 +13,12 @@ body{
     font-size: 72px;
     color: white;
     margin: 12px 0 46px 30px;
-    font-weight: 700;
 }
 
 .p-contact {
     color: white;
     font-size: 24px;
     line-height: 40px;
-    font-weight: 700;
     display: inline-grid;
 }
 

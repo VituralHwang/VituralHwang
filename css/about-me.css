@@ -1,6 +1,7 @@
 *{
-    font-family: 'Futura';
+    font-family: 'Futura Hv BT';
     font-style: normal;
+    font-weight: 900;
     line-height: 178.87%;
 }
 body{
@@ -20,7 +21,6 @@ body{
 .sie .p-am {
     margin: 2px 0 8px;
     width: auto;
-    font-weight: 700;
 }
 
 .h4-sie {
@@ -29,7 +29,6 @@ body{
     color: white;
     margin: 46px 0 26px;
     font-size: 28px;
-    font-weight: 700;
 }
 
 .row.sie ul {

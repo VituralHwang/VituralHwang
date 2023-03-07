@@ -1,6 +1,7 @@
 *{
-    font-family: 'Futura';
+    font-family: 'Futura Hv BT';
     font-style: normal;
+    font-weight: 900;
     line-height: 178.87%;
 }
 
@@ -65,6 +66,10 @@ body{
     margin: 0 15px 0;
 }
 
+.h1-title {
+    font-size: 72px;
+}
+
 .box-vid {
     width: 100%;
 }
@@ -91,23 +96,15 @@ body{
 .h6-title {
     margin: 26px 15px 0px 15px;
     font-size: 24px;
-    font-weight: 900;
-}
-
-.h1-title {
-    font-size: 72px;
-    font-weight: 700;
 }
 
 .h2-title {
     font-size: 48px;
     margin: 0 15px 7px;
-    font-weight: 900;
 }
 
 .h3-title {
     font-size: 36px;
-    font-weight: 900;
 }
 
 @media (max-width: 1600px) {

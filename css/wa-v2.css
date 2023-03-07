@@ -1,6 +1,7 @@
 *{
-    font-family: 'Futura';
+    font-family: 'Futura Hv BT';
     font-style: normal;
+    font-weight: 900;
     line-height: 178.87%;
 }
 
@@ -25,23 +26,19 @@ body{
 
 .h1-title {
     font-size: 72px;
-    font-weight: 700;
 }
 .h6-title {
     margin: 26px 15px 0px 15px;
     font-size: 24px;
-    font-weight: 900;
 }
 
 .h2-title {
     font-size: 48px;
     margin: 0 15px 7px;
-    font-weight: 900;
 }
 
 .h3-title {
     font-size: 36px;
-    font-weight: 900;
 }
 
 .pd-pic{width: 100%;}
@@ -54,7 +51,6 @@ body{
     padding: 2% 5%;
     position: relative;
     bottom: -90%;
-    font-weight: 900;
 }
 .div-tt {
     text-align: center;
