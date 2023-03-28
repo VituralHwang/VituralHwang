@@ -3,11 +3,15 @@ $(function() {
     console.log(width_window);
 
     $(window).on('load', function() {
-        $('.fx-1').addClass('fx-on');
+        /*$('.fx-1').addClass('fx-on');
         $('.fx-2').addClass('fx-on');
         $('.fx-3').addClass('fx-on');
         $('.fx-4').addClass('fx-on');
-        $('.fx-5').addClass('fx-on');
+        $('.fx-5').addClass('fx-on');*/
+        $('.fx-14').addClass('fx-on');
+        $('.fx-15').addClass('fx-on');
+        $('.fx-16').addClass('fx-on');
+        $('.fx-17').addClass('fx-on');
         if (width_window <= 767) {
             $('.fx-1').addClass('fx-on');
             $('.fx-2').addClass('fx-on');
@@ -45,21 +49,21 @@ $(function() {
 		vtht = $('html, body').scrollTop();
 		console.log(vtht);
 
-		if (vtht >999) {
-            $('.fx-14').addClass('fx-on');
-            $('.fx-15').addClass('fx-on');
-            $('.fx-16').addClass('fx-on');
-            $('.fx-17').addClass('fx-on');
-		}
+		// if (vtht >999) {
+        //     $('.fx-14').addClass('fx-on');
+        //     $('.fx-15').addClass('fx-on');
+        //     $('.fx-16').addClass('fx-on');
+        //     $('.fx-17').addClass('fx-on');
+		// }
 
-		if (vtht >2099) {
+		if (vtht >2599) {
             $('.fx-6').addClass('fx-on');
             $('.fx-7').addClass('fx-on');
             $('.fx-8').addClass('fx-on');
             $('.fx-9').addClass('fx-on');
 		}
 
-        if (vtht >2999) {
+        if (vtht >3599) {
             $('.fx-10').addClass('fx-on');
             $('.fx-11').addClass('fx-on');
             $('.fx-12').addClass('fx-on');
