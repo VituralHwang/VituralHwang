@@ -3,15 +3,14 @@ $(function() {
     console.log(width_window);
 
     $(window).on('load', function() {
-        /*$('.fx-1').addClass('fx-on');
-        $('.fx-2').addClass('fx-on');
-        $('.fx-3').addClass('fx-on');
-        $('.fx-4').addClass('fx-on');
-        $('.fx-5').addClass('fx-on');*/
         $('.fx-14').addClass('fx-on');
         $('.fx-15').addClass('fx-on');
         $('.fx-16').addClass('fx-on');
         $('.fx-17').addClass('fx-on');
+        $('.fx-18').addClass('fx-on');
+        $('.fx-19').addClass('fx-on');
+        $('.fx-20').addClass('fx-on');
+        $('.fx-21').addClass('fx-on');
         if (width_window <= 767) {
             $('.fx-1').addClass('fx-on');
             $('.fx-2').addClass('fx-on');
@@ -30,6 +29,10 @@ $(function() {
             $('.fx-15').addClass('fx-on');
             $('.fx-16').addClass('fx-on');
             $('.fx-17').addClass('fx-on');
+            $('.fx-18').addClass('fx-on');
+            $('.fx-19').addClass('fx-on');
+            $('.fx-20').addClass('fx-on');
+            $('.fx-21').addClass('fx-on');
         }
     });
 
@@ -49,28 +52,21 @@ $(function() {
 		vtht = $('html, body').scrollTop();
 		console.log(vtht);
 
-		// if (vtht >999) {
-        //     $('.fx-14').addClass('fx-on');
-        //     $('.fx-15').addClass('fx-on');
-        //     $('.fx-16').addClass('fx-on');
-        //     $('.fx-17').addClass('fx-on');
-		// }
-
-		if (vtht >2599) {
+		if (vtht >3199) {
             $('.fx-6').addClass('fx-on');
             $('.fx-7').addClass('fx-on');
             $('.fx-8').addClass('fx-on');
             $('.fx-9').addClass('fx-on');
 		}
 
-        if (vtht >3599) {
+        if (vtht >4199) {
             $('.fx-10').addClass('fx-on');
             $('.fx-11').addClass('fx-on');
             $('.fx-12').addClass('fx-on');
             $('.fx-13').addClass('fx-on');
         }
 
-        if (width_window >= 1600) {
+        /*if (width_window >= 1600) {
             if (vtht >899) {
                 $('.fx-14').addClass('fx-on');
                 $('.fx-15').addClass('fx-on');
@@ -78,20 +74,20 @@ $(function() {
                 $('.fx-17').addClass('fx-on');
             }
 
-            if (vtht >1799) {
+            if (vtht >3199) {
                 $('.fx-6').addClass('fx-on');
                 $('.fx-7').addClass('fx-on');
                 $('.fx-8').addClass('fx-on');
                 $('.fx-9').addClass('fx-on');
             }
 
-            if (vtht >2599) {
+            if (vtht >4199) {
                 $('.fx-10').addClass('fx-on');
                 $('.fx-11').addClass('fx-on');
                 $('.fx-12').addClass('fx-on');
                 $('.fx-13').addClass('fx-on');
             }
-        }
+        }*/
 
         if (width_window <= 1400) {
             if (vtht >599) {
@@ -221,8 +217,6 @@ $(function() {
     function hideVideo8(e) {$('#video-work-8')[0].pause();}
     var body8 = $('body');
 
-
-
     var movehover9 = $('.sec-vid-9').hover( hoverVideo9, hideVideo9 );
     function hoverVideo9(e) {$('#video-work-9')[0].play();}
     function hideVideo9(e) {$('#video-work-9')[0].pause();}
@@ -241,6 +235,26 @@ $(function() {
     var movehover12 = $('.sec-vid-12').hover( hoverVideo12, hideVideo12 );
     function hoverVideo12(e) {$('#video-work-12')[0].play();}
     function hideVideo12(e) {$('#video-work-12')[0].pause();}
+    var body12 = $('body');
+
+    var movehover13 = $('.sec-vid-13').hover( hoverVideo13, hideVideo13 );
+    function hoverVideo13(e) {$('#video-work-13')[0].play();}
+    function hideVideo13(e) {$('#video-work-13')[0].pause();}
+    var body9 = $('body');
+
+    var movehover14 = $('.sec-vid-14').hover( hoverVideo14, hideVideo14 );
+    function hoverVideo14(e) {$('#video-work-14')[0].play();}
+    function hideVideo14(e) {$('#video-work-14')[0].pause();}
+    var body10 = $('body');
+
+    var movehover15 = $('.sec-vid-15').hover( hoverVideo15, hideVideo15 );
+    function hoverVideo15(e) {$('#video-work-15')[0].play();}
+    function hideVideo15(e) {$('#video-work-15')[0].pause();}
+    var body11 = $('body');
+
+    var movehover16 = $('.sec-vid-16').hover( hoverVideo16, hideVideo16 );
+    function hoverVideo16(e) {$('#video-work-16')[0].play();}
+    function hideVideo16(e) {$('#video-work-16')[0].pause();}
     var body12 = $('body');
 
 

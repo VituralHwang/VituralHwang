@@ -55,6 +55,11 @@ body{
 .fx-16{  transition: all ease 0.75s;}
 .fx-17{  transition: all ease 1.25s;}
 
+.fx-18{  transition: all ease 0.5s;}
+.fx-19{  transition: all ease 1s;}
+.fx-20{  transition: all ease 0.75s;}
+.fx-21{  transition: all ease 1.25s;}
+
 .fx-on{
     transform: translateX(0px); 
     opacity: 1;
