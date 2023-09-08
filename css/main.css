@@ -246,7 +246,9 @@
 }
 
 @media (max-width: 1240px) {
-    .sie li { font-size: 17px !important; }
-    .sie { width: 510px; }
+    .sie li {font-size: 16px !important;}
+    .sie {width: 510px;font-weight: 500 !important;}
     .p-am { width: 510px !important; }
+    .sie .p-am{ font-size: 22px !important; }
+    .h4-sie { font-size: 24px !important; }
 }

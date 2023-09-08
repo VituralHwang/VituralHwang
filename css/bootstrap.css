@@ -567,7 +567,7 @@ pre code {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .container {
     max-width: 720px;
   }
@@ -6350,7 +6350,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .d-md-none {
     display: none !important;
   }
