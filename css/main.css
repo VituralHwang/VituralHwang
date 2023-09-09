@@ -240,7 +240,7 @@
     .a-logo { margin: 72px 0 0 0; font-size: 22px;}
     .a-menu { font-size: 22px; }
     .p-am {font-size: 19px !important;width: 434px !important;line-height: 30px !important;margin: 2px  0 25px !important;}
-    .sie li { font-size: 18px !important; }
+    .sie li { font-size: 18px !important; font-family: 'Futura Md BT' !important;font-weight: 500;}
     .sie { width: 434px; }
     .sie ul {padding: 0 !important;letter-spacing: 0px !important;}
     .p-market {margin: 81px 35px 0 0}
