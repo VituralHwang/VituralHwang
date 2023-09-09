@@ -15,7 +15,7 @@ body{
     font-size: 24px;
     font-weight: 500;
     line-height: 42.93px;
-    width: 1125px;
+    width: calc(100%);
 }
 
 .h4-sie {
@@ -27,7 +27,7 @@ body{
 }
 
 .row.sie ul {
-    padding: 0 22px;
+    padding: 0 0 0 22px;
     color: white;
     letter-spacing: 2px;
     font-size: 24px;
