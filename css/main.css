@@ -246,7 +246,7 @@
 }
 
 @media (max-width: 1240px) {
-    .sie li {font-size: 16px !important;}
+    .sie li {font-size: 16px !important;font-weight: 500 !important;font-family: 'Futura Md BT';}
     .sie {width: 510px;font-weight: 500 !important;}
     .p-am { width: 510px !important; }
     .sie .p-am{ font-size: 22px !important; }
